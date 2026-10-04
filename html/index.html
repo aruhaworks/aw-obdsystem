@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARUHAWORKS OBD-II</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="root" class="hidden">
+    <div class="frame">
+        <header>
+            <div class="brand" id="brand">
+                <span class="mark">AW</span>
+                <div>
+                    <b>ARUHAWORKS</b>
+                    <i data-t="brand_sub"></i>
+                </div>
+            </div>
+            <div class="vehicle">
+                <span id="model">-</span>
+                <span id="plate" class="plate">-</span>
+            </div>
+            <div class="link">
+                <span class="dot"></span>
+                <span data-t="link"></span>
+                <button id="close">&times;</button>
+            </div>
+        </header>
+        <div class="body">
+            <nav id="nav"></nav>
+            <main id="view"></main>
+        </div>
+        <footer>
+            <span>ARUHAWORKS // BUILT FOR FIVEM</span>
+            <span id="clock"></span>
+        </footer>
+        <div id="overlay" class="hidden">
+            <div class="obox">
+                <span class="mark">AW</span>
+                <b>ARUHAWORKS</b>
+                <span class="osub" id="otitle"></span>
+                <div class="bar"><i id="obar"></i></div>
+                <div id="olog"></div>
+            </div>
+        </div>
+        <div id="progress" class="hidden">
+            <div class="pbox">
+                <b id="plabel"></b>
+                <div class="bar"><i id="pbar"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
